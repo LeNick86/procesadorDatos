@@ -65,7 +65,7 @@ def main():
     if selected_dic == 'Sentimientos':
         dic = {'positivo': '32cd32', 'negativo': 'ff0000'}
     else:
-        dic = {'economia': '32cd32', 'gestion': 'ffd700','politica' : 'a9874a','pueblo':'800080','produccion':'ffa500','corrupcion':'8a1919','exterior':'40e0d0','finanza':'00ff00'}
+        dic = {'economia': '32cd32', 'gestion': 'ffd700','politica' : 'a9874a','pueblo':'800080','produccion':'ffa500','corrupcion':'8a1919','exterior':'40e0d0','finanza':'00ff00','justicia':'00008b'}
 
 
 
@@ -112,7 +112,7 @@ def main():
         if selected_dic == 'Sentimientos':
             color_size_sum = color_size_sum.rename({'32cd32': 'Positivo', 'ff0000':'Negativo'})
         else:
-            color_size_sum = color_size_sum.rename({'32cd32': 'Economía', 'ffd700': 'Gestión','a9874a' : 'Política','800080':'Pueblo','ffa500':'Producción','8a1919':'Corrupción','40e0d0':'Exterior','00ff00':'Finanza'})
+            color_size_sum = color_size_sum.rename({'32cd32': 'Economía', 'ffd700': 'Gestión','a9874a' : 'Política','800080':'Agenda Social','ffa500':'Producción','8a1919':'Corrupción','40e0d0':'Exterior','00ff00':'Finanza','00008b':'Justicia'})
 
 
 
